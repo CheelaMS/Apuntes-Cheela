@@ -1,10 +1,7 @@
-# Hola mi nombre es cheela
+# Bienvenido a mi repositorio de respaldos  
 
-## esto es una prueba
+## Soy Cheela, en este repositorio subo mis respaldo de mis estudios
 
-### damn
+### 
 
 ----
-
-lmao
-test

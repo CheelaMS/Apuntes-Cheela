@@ -25,3 +25,4 @@ while segundos <= 1000:
 
     print (f"{transmision(segundos)} megabits x segundo")
     segundos += 100
+

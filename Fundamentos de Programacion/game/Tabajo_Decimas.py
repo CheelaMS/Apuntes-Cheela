@@ -35,7 +35,7 @@ _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
                                 `'                            '-._|
 
            
-Hecho por: Diego Abad, Gonzalo Olhabe y Axel Trujillo
+by cheela, axel and diego
            \nLA CAMPEONA CYNTHIA TE DESAFIA A UN COMBATE
 """)
 

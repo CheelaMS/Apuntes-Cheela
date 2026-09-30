@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.duoc.clase.FormularioController"
+      alignment="CENTER"
+      spacing="15"
+      style="-fx-padding: 30">
+    <Label
+            text="Registro de estudiante"
+            style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+    <TextField
+            fx:id="txtNombre"
+            promptText="Ingrese nombre"
+    />
+
+    <TextField
+            fx:id="txtCorreo"
+            promptText="Ingrese correo"/>
+
+    <ComboBox
+            fx:id="cmbCarrera"
+            promptText="Seleccione carrera"
+            prefWidth="390"/>
+    <Button
+            text="Registrar"
+            onAction="#registrar"/>
+    <Label
+            fx:id="lblResultado"
+            text="Complete el formulario"/>
+
+</VBox>

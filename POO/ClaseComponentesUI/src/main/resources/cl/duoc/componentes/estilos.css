@@ -1,0 +1,20 @@
+.root {
+       -fx-background-color: #f4f6f8;
+       -fx-padding: 25px;
+}
+
+.titulo {
+       -fx-font-size: 26px;
+       -fx-font-weight: bold;
+}
+
+.button {
+       -fx-background-color: #2563eb;
+       -fx-text-fill: white;
+       -fx-padding: 10px 20px;
+       -fx-background-radius: 6px;
+
+}
+.button:hover {
+       -fx-background-color: #1d4ed8;
+}

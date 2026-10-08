@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="cl.duoc.componentes.ActividadController"
+      alignment="CENTER"
+      spacing="15"
+      styleClass="root">
+    <Label
+        text="Change the world my final message"
+        styleClass="titulo"/>
+    <ImageView fitWidth="180"
+               fitHeight="180"
+               preserveRatio="true">
+        <image>
+            <Image url="@imagen.png" />
+        </image>
+
+    </ImageView>
+
+    <Label text="Fecha de la actividad"/>
+    <DatePicker fx:id="fecha"/>
+    <Label text="Nivel de dificultad"/>
+    <Slider fx:id="dificultad"
+            min="1"
+            max="10"
+            value="5"
+            showTickLabels="true"
+            showTickMarks="true"
+    />
+    <Label text="Cantidad de participantes"/>
+    <Spinner fx:id="participantes"
+             min="1"
+             max="20"
+             initialValue="1"/>
+    <CheckBox fx:id="confirmada" text="Confirma la actividad"/>
+
+    <Label text="Seleccione color"/>
+    <ColorPicker fx:id="color"/>
+
+    <ProgressBar fx:id="progreso"
+                 progress="0.25"
+                 prefWidth="300"
+    />
+
+    <Button text="GOODBYE" onAction="#registrar"/>
+
+
+
+
+
+
+</VBox>

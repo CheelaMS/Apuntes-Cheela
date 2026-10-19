@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="htttp://java.com/fxml"
+      alignment="CENTER"
+      spacing="20"
+>
+    <Label text="Panel principal"/>
+    <Button fx:id="btnVolver" text="OPA"/>
+
+
+
+</VBox>

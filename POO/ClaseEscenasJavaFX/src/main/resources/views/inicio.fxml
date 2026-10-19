@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="htttp://java.com/fxml"
+      alignment="CENTER"
+      spacing="20"
+>
+    <Label text="Pantalla de inicio de mi Applicación"/>
+    <Button fx:id="btnEntrar" text="Ir a la pantalla de Panel"/>
+
+
+
+</VBox>

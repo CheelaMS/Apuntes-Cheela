@@ -1,0 +1,7 @@
+cl\duoc\salmondelsur\config\Conexion.class
+cl\duoc\salmondelsur\dao\LoteMySQLDAO.class
+cl\duoc\salmondelsur\model\LoteFresco.class
+cl\duoc\salmondelsur\controller\LoteController.class
+cl\duoc\salmondelsur\App.class
+cl\duoc\salmondelsur\model\LoteSalmon.class
+cl\duoc\salmondelsur\model\LoteCongelado.class

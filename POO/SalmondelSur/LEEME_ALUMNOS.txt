@@ -1,0 +1,33 @@
+SALMON DEL SUR - PROYECTO BASE PARA ALUMNOS
+=========================================
+
+OBJETIVO: completar SOLO estos cuatro archivos:
+1. src/main/java/cl/duoc/salmondelsur/config/Conexion.java
+2. src/main/resources/cl/duoc/salmondelsur/main-view.fxml
+3. src/main/java/cl/duoc/salmondelsur/controller/LoteController.java
+4. src/main/java/cl/duoc/salmondelsur/dao/LoteMySQLDAO.java
+
+NO modificar: App.java, clases de model, pom.xml ni salmon_del_sur.sql.
+
+ANTES DE INICIAR
+- JDK 21, IntelliJ IDEA, Maven y XAMPP o Laragon con MySQL activo.
+- Importa/ejecuta salmon_del_sur.sql desde phpMyAdmin o HeidiSQL.
+- Confirma que MySQL está en localhost:3306 (de lo contrario ajusta Conexion.java).
+- Revisa usuario y clave; los ejemplos usan root SIN clave solo para desarrollo local.
+
+EJECUCIÓN
+- Abrir la carpeta del proyecto en IntelliJ IDEA.
+- Esperar que se resuelvan las dependencias Maven.
+- Ejecutar desde terminal: mvn clean javafx:run
+  (o el objetivo javafx:run en el panel Maven de IntelliJ).
+
+La aplicación BASE abre una interfaz incompleta; eso es intencional.
+Los métodos con TODO aún no implementan las operaciones.
+
+REGLAS DIDÁCTICAS DEL CASO (no son precios reales de mercado)
+FRESCO: kilos * 7500
+CONGELADO: kilos * 6500
+Los kilos deben ser enteros mayores que cero.
+El código del lote es único. Código y centro no pueden estar vacíos.
+
+Completar la solución sin agregar SQL en el Controller.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!-- ACTIVIDAD 2: completar los componentes y eventos de la vista FXML. -->
+<?import javafx.scene.text.Text?>
+<VBox spacing="14" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="cl.duoc.salmondelsur.controller.LoteController">
+    <padding><Insets top="24" right="24" bottom="24" left="24"/></padding>
+    <Label text="SALMÓN DEL SUR - Control de lotes"
+           style="-fx-font-size:22px;-fx-font-weight:bold;"/>
+    <HBox spacing="10">
+        <ComboBox fx:id="tipo" promptText="Tipo" prefWidth="140"/>
+        <TextField fx:id="codigo" promptText="Código del lote" prefWidth="160"/>
+        <TextField fx:id="centro" promptText="Centro de origen" prefWidth="260"/>
+        <!-- done:agregar TextField fx:id="kilos" para la cantidad. -->
+        <TextField fx:id="kilos" promptText="Kilos del lote" prefWidth="130"/>
+    </HBox>
+    <HBox spacing="10">
+        <!--  vincular onAction con los métodos del Controller. -->
+        <Button text="Guardar" onAction="#guardar"/>
+        <Button text="Eliminar" onAction="#eliminar"/>
+        <Button text="Limpiar" onAction="#limpiar"/>
+    </HBox>
+    <!-- done:añadir onMouseClicked para seleccionar un lote. -->
+    <ListView fx:id="lista" onMouseClicked="#seleccionar" VBox.vgrow="ALWAYS"/>
+    <Label fx:id="mensaje" text="Interfaz base" wrapText="true"/>
+</VBox>
